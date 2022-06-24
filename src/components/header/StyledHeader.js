@@ -16,7 +16,7 @@ export const NavContainer = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     color: hsl(240, 100%, 90% )
 `
 
