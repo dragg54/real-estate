@@ -26,7 +26,7 @@ export const NavElements = styled.ul`
     justify-content: space-between;
     width: 450px;
 
-    @media(max-width: 600px){
+    @media(max-width: 768px){
         display: none
     }
   
@@ -40,9 +40,23 @@ export const IconsContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 165px
+    width: 165px;
+
+    @media(max-width: 768px){
+      width: 195px;
+    }
 `
 
 export const Icons = styled.p`
     font-size: 1.3rem;
+`
+
+export const MenuIcon = styled.p`
+    display: none;
+    font-size: 1.3rem;
+
+    @media(max-width: 768px){
+        display: block;
+        margin-left: 12px;
+    }
 `

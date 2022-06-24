@@ -1,7 +1,8 @@
 import React from 'react'
-import { Icons, IconsContainer, Logo, LogoContainer, NavContainer, NavElements, NavList } from './StyledHeader'
+import { Icons, IconsContainer, Logo, LogoContainer, MenuIcon, NavContainer, NavElements, NavList } from './StyledHeader'
 import { FaSearch } from 'react-icons/fa'
 import { BsFillPersonFill } from 'react-icons/bs'
+import { FiMenu } from "react-icons/fi"
 
 const Header = () => {
   return (
@@ -29,6 +30,7 @@ const Header = () => {
         <p style={{fontSize: "1rem", whiteSpace:"nowrap"}}>MY ACCOUNT</p>
         <Icons><BsFillPersonFill /></Icons>
         <Icons><FaSearch /></Icons>
+        <MenuIcon><FiMenu/></MenuIcon>
     </IconsContainer>
     </NavContainer>
   )
