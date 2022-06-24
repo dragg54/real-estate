@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <>
       <HeroWrapper>
-        <div styles={{height:"100%", width:"100%", position:"relative", overflow:"hidden", backgroundColor:"yellow"}}>
+        <div styles={{height:"100%", width:"100%", position:"relative", overflowX:"hidden", backgroundColor:"yellow"}}>
           <HeroContainer>
             <Header />
             <HeroSection>

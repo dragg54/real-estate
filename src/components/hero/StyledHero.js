@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const HeroContainer = styled.div`
     padding: 28px 170px 0px 170px;
+    overflow:hidden;
 
     @media(max-width: 1200px){
         padding: 22px 130px 0px 130px;
@@ -123,6 +124,11 @@ export const PrimaryButton = styled.button`
     color: hsl(240, 100%, 90%);
     border: none;
     border-radius: 7px;
+
+    @media(max-width: 600px){
+        font-size: 0.6rem;
+        white-space: nowrap;
+    }
 `
 
 export const SecondaryButton = styled.button`
@@ -131,7 +137,8 @@ export const SecondaryButton = styled.button`
     color: hsl(240, 100%, 90%);
     background-color: transparent;
     display: flex;
-    align-items: center
+    align-items: center;
+    white-space: no-wrap;
    
 `
 
@@ -166,6 +173,8 @@ export const HeroImageContainer = styled.div`
     `
 
     export const Img = styled.img`
+        user-select: none;
+        -drag:none;
         @media(max-width: 600px){
             width: 500px;
             height: 600px;
