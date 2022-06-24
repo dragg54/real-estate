@@ -14,7 +14,7 @@ import {
   PrimaryButton,
   SecondaryButton,
 } from "./StyledHero";
-import SearchContainer from "../searchContainer/SearchContainer";
+import SearchContainer from "../searchContainer/SearchContainer"
 
 const Hero = () => {
   return (
