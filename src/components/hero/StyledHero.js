@@ -21,9 +21,10 @@ export const HeroWrapper = styled.div`
     height: 800px;
     width:100%;
     background: linear-gradient(#68BBE3, #003060), url("../../../images/hero-image.png");
-    margin-bottom: 100px;
     padding:0px;
-    overflow: hidden;
+    position: relative;
+    margin-bottom: 200px;
+
 
     @media(max-width: 600px){
        height: 850px
@@ -118,7 +119,7 @@ export const PrimaryButton = styled.button`
     padding: 12px 20px;
     font-size: 0.8rem;
     background-color: #E34234;
-    box-shadow: 2px 2px 2px red;
+    box-shadow: 1px 1px 1px red;
     color: hsl(240, 100%, 90%);
     border: none;
     border-radius: 7px;
@@ -170,3 +171,4 @@ export const HeroImageContainer = styled.div`
             height: 600px;
         }
     `
+   
