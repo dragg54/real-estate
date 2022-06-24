@@ -43,17 +43,22 @@ export const IconsContainer = styled.div`
     width: 165px;
 
     @media(max-width: 768px){
-      width: 195px;
+      width: 90px;
     }
+
+    @media(max-width: 600px){
+      width: 90px;
+    }
+
 `
 
 export const Icons = styled.p`
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 `
 
 export const MenuIcon = styled.p`
     display: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 
     @media(max-width: 768px){
         display: block;

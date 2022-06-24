@@ -27,7 +27,6 @@ const Header = () => {
         </NavList>
     </NavElements>
     <IconsContainer>
-        <p style={{fontSize: "1rem", whiteSpace:"nowrap"}}>MY ACCOUNT</p>
         <Icons><BsFillPersonFill /></Icons>
         <Icons><FaSearch /></Icons>
         <MenuIcon><FiMenu/></MenuIcon>
