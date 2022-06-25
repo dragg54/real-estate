@@ -79,7 +79,6 @@ export const SearchButton = styled(PrimaryButton)`
     padding:5px 10px;
     border-radius: 6px;
     outline: none;
-    border: 1px solid gray;
 
     @media(max-width: 768px){
         width:100px;
