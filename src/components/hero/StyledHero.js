@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const HeroContainer = styled.div`
-    padding: 28px 170px 0px 170px;
+    padding: 28px 140px 0px 140px;
     overflow:hidden;
 
     @media(max-width: 1200px){
