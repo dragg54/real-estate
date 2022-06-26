@@ -1,6 +1,4 @@
-import axios from "axios";
-
-const options = {
+export const baseUrl = {
   method: 'GET',
   url: 'https://bayut.p.rapidapi.com/properties/list',
   params: {
@@ -19,13 +17,4 @@ const options = {
   }
 };
 
-export const fetchApi=()=>{
-  axios.request(options).then(function (response) {
-    console.log(response.data);
-    return response.data
-  }).catch(function (error) {
-    console.error(error);
-  });
-  
-}
 
