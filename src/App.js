@@ -1,19 +1,23 @@
 import React, { useState, useEffect } from "react";
 import Hero from "./components/hero/Hero";
-import { fetchApi } from "./API/fetchApi";
+import { baseUrl } from "./API/fetchApi";
 import Properties from "./components/properties/Properties";
+import axios from "axios"
 
 function App() {
   const [data, setData] = useState();
 
   useEffect(() => {
-    setData(fetchApi());
+      axios.request(baseUrl).then(function (response) {
+       setData(response.data)
+      }).catch(function (error) {
+        console.error(error);
+      });
   }, []);
-  console.log(data);
   return (
     <>
       <Hero />
-      <Properties />
+      <Properties propertiesData={data} />
     </>
   );
 }
