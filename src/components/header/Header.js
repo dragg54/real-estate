@@ -1,7 +1,5 @@
 import React from 'react'
-import { Icons, IconsContainer, Logo, LogoContainer, MenuIcon, NavContainer, NavElements, NavList } from './StyledHeader'
-import { FaSearch } from 'react-icons/fa'
-import { BsFillPersonFill } from 'react-icons/bs'
+import {IconsContainer, Logo, LogoContainer, MenuIcon, NavContainer, NavElements, NavList } from './StyledHeader'
 import { FiMenu } from "react-icons/fi"
 
 const Header = () => {
@@ -27,8 +25,6 @@ const Header = () => {
         </NavList>
     </NavElements>
     <IconsContainer>
-        <Icons><BsFillPersonFill /></Icons>
-        <Icons><FaSearch /></Icons>
         <MenuIcon><FiMenu/></MenuIcon>
     </IconsContainer>
     </NavContainer>

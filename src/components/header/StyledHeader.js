@@ -43,11 +43,12 @@ export const IconsContainer = styled.div`
     width: 165px;
 
     @media(max-width: 768px){
-      width: 90px;
+        justify-content: flex-end;
+        width: 90px;
     }
 
     @media(max-width: 600px){
-      width: 90px;
+        justify-content: flex-end;
     }
 
 `
