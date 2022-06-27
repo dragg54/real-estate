@@ -28,7 +28,7 @@ export const HeroWrapper = styled.div`
 
 
     @media(max-width: 600px){
-       height: 850px
+       height: 800px
     }
 
 `
@@ -65,7 +65,7 @@ export const HeroSubSection = styled.div`
     }
 
     @media(max-width: 600px){
-      height: 700px;
+      height: 750px;
       width:100px
     }
 
@@ -95,7 +95,7 @@ export const HeroCaption = styled.h1`
 
 export const HeroSubCaption = styled.h4`
     font-size: 1rem;
-    color: hsl(240, 100%, 90%);
+    color:rgb(173,216,230);
 
     @media(max-width: 900px){
         margin-top: -10px;
@@ -121,7 +121,7 @@ export const PrimaryButton = styled.button`
     font-size: 0.8rem;
     background-color: #E34234;
     box-shadow: 1px 1px 1px red;
-    color: hsl(240, 100%, 90%);
+    color: #fff;
     border: none;
     border-radius: 7px;
 
@@ -134,7 +134,7 @@ export const PrimaryButton = styled.button`
 export const SecondaryButton = styled.button`
     border: none;
     font-size: 0.8rem;
-    color: hsl(240, 100%, 90%);
+    color:	#fff;
     background-color: transparent;
     display: flex;
     align-items: center;
