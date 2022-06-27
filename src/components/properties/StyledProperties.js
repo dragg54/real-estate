@@ -22,7 +22,7 @@ export const PropertyWrapper = styled.div`
     }
     @media(max-width: 600px){
         padding: 3px 15px 40px 15px;
-        height: 1650px;
+        height: 1550px;
     }
 `
 export const PropertyHeader = styled.h1`
@@ -56,13 +56,12 @@ export const PropertyCard = styled.div`
    align-items: center;
    justify-content:space-between;
    margin-right:5px;
-   background-color: brown;
    box-shadow: 1px 1px 2px #747474;
    color:rgba(0,0,1,0.5 );
 
    @media(max-width: 600px){
         width: 100%;
-        height: 33%;
+        height: 32%;
     }
 
 `
