@@ -20,7 +20,7 @@ background-color: #fff;
 @media(max-width: 600px){
     max-width: 95%;
     padding: 20px 10px;
-    transform: translate(-50%, 135%);
+    transform: translate(-50%, 115%);
 }
 
 ` 
