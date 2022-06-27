@@ -7,7 +7,7 @@ export const PropertyWrapper = styled.div`
     justify-content: center;
     padding: 28px 140px 0px 140px;
     max-width: 100%;
-    height: 1000px;
+    height: 700px;
     margin-bottom: 100px;
 
     @media(max-width: 1200px){
@@ -22,7 +22,7 @@ export const PropertyWrapper = styled.div`
     }
     @media(max-width: 600px){
         padding: 3px 15px 40px 15px;
-        height: 2200px;
+        height: 1650px;
     }
 `
 export const PropertyHeader = styled.h1`
@@ -36,7 +36,7 @@ export const PropertyHeader = styled.h1`
 `
 export const PropertyContainer= styled.div`
     width: 100%;
-    height: 1000px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     padding:0;
@@ -57,6 +57,8 @@ export const PropertyCard = styled.div`
    justify-content:space-between;
    margin-right:5px;
    background-color: brown;
+   box-shadow: 1px 1px 2px #747474;
+   color:rgba(0,0,1,0.5 );
 
    @media(max-width: 600px){
         width: 100%;
@@ -66,7 +68,7 @@ export const PropertyCard = styled.div`
 `
 export const ImageContainer = styled.div`
     width: 100%;
-    height:50%;
+    height:65%;
     object-fit: contain;
     display: flex;
     justify-content:center;
@@ -75,11 +77,14 @@ export const ImageContainer = styled.div`
 `
 export const DescriptionContainer=styled.div`
     width:100%;
-    height:50%;
+    height:35%;
     background-color: #fff;
-    padding:4px 0px;
     box-sizing: border-box;
-    padding: 4px 7px;
+    padding: 15px 19px 34px 19px;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    margin: 0
 ` 
 export const Img = styled.img`
     height: 100%;
@@ -89,13 +94,35 @@ export const Img = styled.img`
 export const LocDetailsContainer = styled.div`
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     color:rgba(0,0,1,0.5 );
-
+    font-size: 0.5rem;
+    align-items: center;
 `
 
 export const PriceHeader = styled.h4`
     font-size: 1.7rem;
-    color:rgba(0,0,1,0.5 );
+    margin: 0;
+    color: #000
+    
+`
+export const Icons = styled.li`
+    font-size: 1rem;
+    margin-right: 3px;
+    list-style: none;
+`
+
+export const LocationInfo = styled.div`
+    display: flex;
+    align-items: center;
+`
+
+export const LocationInfoContainer =  styled.div`
+    display:flex;
+    width: 80%;
+    justify-content: space-between;
+
+`
+
+export const GeographyCont = styled.div`
+    display: flex;
 `
