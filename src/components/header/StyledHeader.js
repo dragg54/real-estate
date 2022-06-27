@@ -5,7 +5,7 @@ export const LogoContainer = styled.div`
 `
 
 export const Logo = styled.p`
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 50px;
     color: #fff;
     font-family: Staatliches;

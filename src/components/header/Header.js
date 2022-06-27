@@ -7,7 +7,7 @@ const Header = () => {
     <NavContainer>
     <LogoContainer>
         <Logo>
-            <span style={{fontSize:'0.95rem'}}>THE</span> LUPAL GROUP
+            <span style={{fontSize:'0.90rem'}}>THE</span> LUPAL GROUP
         </Logo>
     </LogoContainer>
     <NavElements>
