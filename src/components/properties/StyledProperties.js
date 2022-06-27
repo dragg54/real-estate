@@ -120,6 +120,10 @@ export const LocationInfoContainer =  styled.div`
     width: 80%;
     justify-content: space-between;
 
+    @media(max-width: 600px){
+        width:90%
+    }
+
 `
 
 export const GeographyCont = styled.div`
