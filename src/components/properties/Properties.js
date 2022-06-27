@@ -59,7 +59,7 @@ const Properties = ({ propertiesData }) => {
                             style={{ fontSize: "0.8rem", display: "flex" }}
                           >
                             <p style={{ whiteSpace: "no-wrap" }}>
-                              {locationName.level == 2 && locationName.name}
+                              {locationName.level === 2 && locationName.name}
                             </p>
                           </div>
                         );
