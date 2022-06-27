@@ -41,7 +41,8 @@ export const HeroSection = styled.div`
         margin-bottom: -30px;
     }
     @media(max-width: 600px){
-       position:  relative
+       position:  relative;
+       margin-top:-50px
     }
 
 `
@@ -65,7 +66,7 @@ export const HeroSubSection = styled.div`
     }
 
     @media(max-width: 600px){
-      height: 600px;
+      height: 650px;
       width:100px
     }
 
