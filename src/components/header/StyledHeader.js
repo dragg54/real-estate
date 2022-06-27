@@ -17,7 +17,7 @@ export const NavContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    color: hsl(240, 100%, 90% )
+    color: #fff
 `
 
 export const NavElements = styled.ul`
