@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const LogoContainer = styled.div`
-
+    display: flex;
+    align-items: center;
 `
 
 export const Logo = styled.p`
@@ -13,10 +14,11 @@ export const Logo = styled.p`
 `
 
 export const NavContainer = styled.div`
+    max-height:100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     color: #fff
 `
 
