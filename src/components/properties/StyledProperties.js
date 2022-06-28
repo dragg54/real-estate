@@ -23,7 +23,7 @@ export const PropertyWrapper = styled.div`
     @media(max-width: 600px){
         padding: 3px 15px 40px 15px;
         height: 1550px;
-        margin-top: -20px;
+        margin-top: -49px;
     }
 `
 export const PropertyHeader = styled.h1`
