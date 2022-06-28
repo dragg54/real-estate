@@ -1,8 +1,10 @@
 import styled from "styled-components"
 
 export const HeroContainer = styled.div`
-    padding: 28px 140px 0px 140px;
+    padding: 0px 140px 0px 140px;
     overflow:hidden;
+    position: relative;
+    height: 80%;
 
     @media(max-width: 1200px){
         padding: 22px 130px 0px 130px;
@@ -21,7 +23,7 @@ export const HeroContainer = styled.div`
 export const HeroWrapper = styled.div`
     height: 800px;
     width:100%;
-    background: linear-gradient(#68BBE3, #003060), url("../../../images/hero-image.png");
+    background: linear-gradient(#68BBE3, #003060);
     padding:0px;
     position: relative;
     margin-bottom: 200px;
@@ -32,6 +34,21 @@ export const HeroWrapper = styled.div`
     }
 
 `
+
+export const BackgroundImgContainer = styled.div`
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../images/hero-image.png");
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: 0;
+   background-position: right bottom;
+   background-size: 1000px;
+
+   @media(max-width: 600px){
+    background-position: center;
+   }
+    `
 
 export const HeroSection = styled.div`
     width:100%;
@@ -47,7 +64,7 @@ export const HeroSection = styled.div`
 
 `
 export const HeroSubSection = styled.div`
-    width: 650px;
+    width: 580px;
     height: 580px;
     margin-top: 80px;
 
@@ -88,7 +105,6 @@ export const HeroCaption = styled.h1`
     @media(max-width: 600px){
         width: 350px;
         position: absolute;
-        z-index: 2;
     }
 
     
@@ -111,7 +127,7 @@ export const HeroSubCaption = styled.h4`
         width: 300px;
         margin-top: 330px;
         position: absolute;
-        z-index:2
+        z-index:15
         
     }
 
