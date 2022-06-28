@@ -46,7 +46,8 @@ export const BackgroundImgContainer = styled.div`
    background-size: 1000px;
 
    @media(max-width: 600px){
-    background-position: center;
+    background-size: 700px;
+    background-position: bottom;
     margin-top: 40px;
    }
     `
@@ -60,12 +61,12 @@ export const HeroSection = styled.div`
     }
     @media(max-width: 600px){
        position:  relative;
-       margin-top:-50px
+       margin-top:-20px
     }
 
 `
 export const HeroSubSection = styled.div`
-    width: 580px;
+    width: 530px;
     height: 580px;
     margin-top: 80px;
 
@@ -99,7 +100,6 @@ export const HeroCaption = styled.h1`
     @media(max-width: 1200px){
         width: 400px;
         height:70px;
-        margin-bottom: 180px;
     
     }
     
@@ -126,7 +126,7 @@ export const HeroSubCaption = styled.h4`
     }
     @media(max-width: 600px){
         width: 300px;
-        margin-top: 330px;
+        margin-top: 230px;
         position: absolute;
         z-index:15
         
@@ -169,7 +169,7 @@ export const ButtonContainer = styled.div`
     @media(max-width: 600px){
         position: absolute;
         z-index: 2;
-        margin-top:450px
+        margin-top:320px
     }
 `
 export const HeroImageContainer = styled.div`

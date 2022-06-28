@@ -26,11 +26,11 @@ const Hero = () => {
             <HeroSection>
               <HeroSubSection>
                 <HeroCaption>
-                  We are capable to help you find your dream home.
+                  Let's get you your dream home
                 </HeroCaption>
                 <HeroSubCaption>
-                  Making the search for either residential or commercial
-                  apartments easier than you can ever imagine, at affordable
+                  We provide residential and commercial
+                  apartments at affordable
                   prices.
                 </HeroSubCaption>
                 <ButtonContainer>
