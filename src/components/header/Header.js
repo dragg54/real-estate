@@ -7,8 +7,8 @@ const Header = () => {
     <NavContainer>
     <LogoContainer>
         <Logo>
-            <span style={{fontSize:'0.90rem'}}>THE</span> LUPAL GROUP
-        </Logo>
+        <img src="../../../images/logo.png" alt=""height={100} width={100}/>
+        </Logo>     
     </LogoContainer>
     <NavElements>
         <NavList>
