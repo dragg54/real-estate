@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../header/Header";
 import { FiArrowRight } from "react-icons/fi";
 import {
+  BackgroundImgContainer,
   ButtonContainer,
   HeroCaption,
   HeroContainer,
@@ -21,6 +22,7 @@ const Hero = () => {
     <>
       <HeroWrapper>
         <div styles={{height:"100%", width:"100%", position:"relative", overflowX:"hidden", backgroundColor:"yellow"}}>
+            <BackgroundImgContainer/>
           <HeroContainer>
             <Header />
             <HeroSection>
@@ -47,9 +49,9 @@ const Hero = () => {
                   </SecondaryButton>
                 </ButtonContainer>
               </HeroSubSection>
-              <HeroImageContainer>
+              {/* <HeroImageContainer>
                 <Img src="../../../images/hero-image.png" height={630} alt="" />
-              </HeroImageContainer>
+              </HeroImageContainer> */}
             </HeroSection>
           </HeroContainer>
         </div>
