@@ -47,6 +47,7 @@ export const BackgroundImgContainer = styled.div`
 
    @media(max-width: 600px){
     background-position: center;
+    margin-top: 40px;
    }
     `
 
