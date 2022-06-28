@@ -6,7 +6,6 @@ import {
   ButtonContainer,
   HeroCaption,
   HeroContainer,
-  HeroImageContainer,
   HeroSection,
   HeroSubCaption,
   HeroSubSection,
@@ -49,9 +48,6 @@ const Hero = () => {
                   </SecondaryButton>
                 </ButtonContainer>
               </HeroSubSection>
-              {/* <HeroImageContainer>
-                <Img src="../../../images/hero-image.png" height={630} alt="" />
-              </HeroImageContainer> */}
             </HeroSection>
           </HeroContainer>
         </div>
