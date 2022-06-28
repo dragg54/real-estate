@@ -10,7 +10,6 @@ import {
   HeroSubCaption,
   HeroSubSection,
   HeroWrapper,
-  Img,
   PrimaryButton,
   SecondaryButton,
 } from "./StyledHero";
