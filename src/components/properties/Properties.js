@@ -9,10 +9,12 @@ import {
   LocationInfoContainer,
   LocDetailsContainer,
   PriceHeader,
+  PropertyBody,
   PropertyCard,
   PropertyContainer,
   PropertyHeader,
   PropertyWrapper,
+  ViewAll,
 } from "./StyledProperties";
 
 import { FaBed, FaBath } from "react-icons/fa";
@@ -20,10 +22,11 @@ import { AiOutlineAreaChart } from "react-icons/ai";
 import { MdLocationOn } from "react-icons/md";
 
 const Properties = ({ propertiesData }) => {
-  console.log(propertiesData);
   return (
+  <PropertyBody>
+   <PropertyHeader>Our Available Homes</PropertyHeader>
+   <ViewAll>View all properties</ViewAll>
     <PropertyWrapper>
-      <PropertyHeader>Our Available Homes</PropertyHeader>
       <PropertyContainer>
         {propertiesData &&
           propertiesData.hits &&
@@ -47,16 +50,16 @@ const Properties = ({ propertiesData }) => {
                       flexDirection: "column",
                       justifyContent: "space-between",
                     }}
-                  >
+                    >
                     <LocDetailsContainer>
                       <Icons>
-                        <MdLocationOn />
+                        <MdLocationOn styles={{padding:"0"}}/>
                       </Icons>
                       {property.location.map((locationName) => {
                         return (
                           <div
-                            key={locationName.id}
-                            style={{ fontSize: "0.8rem", display: "flex" }}
+                          key={locationName.id}
+                          style={{ fontSize: "0.8rem", display: "flex" }}
                           >
                             <p style={{ whiteSpace: "no-wrap" }}>
                               {locationName.level === 2 && locationName.name}
@@ -73,11 +76,11 @@ const Properties = ({ propertiesData }) => {
                     <LocationInfoContainer>
                       <LocationInfo>
                         <Icons>{<FaBed />}</Icons>
-                        {property.rooms} beds
+                        {property.rooms} bed
                       </LocationInfo>
                       <LocationInfo>
                         <Icons>{<FaBath />}</Icons>
-                        {property.baths} baths
+                        {property.baths} bath
                       </LocationInfo>
                       <LocationInfo>
                         <Icons>{<AiOutlineAreaChart />}</Icons>
@@ -96,6 +99,7 @@ const Properties = ({ propertiesData }) => {
           })}
       </PropertyContainer>
     </PropertyWrapper>
+  </PropertyBody>
   );
 };
 
