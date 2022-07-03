@@ -7,8 +7,42 @@ export const PropertyWrapper = styled.div`
     justify-content: center;
     padding: 28px 140px 0px 140px;
     max-width: 100%;
-    height: 700px;
-    margin-bottom: 100px;
+    height: 550px;
+    margin-bottom: 50px;
+
+    @media(max-width: 1200px){
+        padding: 22px 90px 0px 90px;
+        overflow: scroll;
+    }
+    @media(max-width: 900px){
+        padding: 35px 50px 0px 35px;
+        
+   
+    }
+    @media(max-width: 768px){
+        padding: 16px 30px 0px 30px;
+        height: 650px;
+    }
+    @media(max-width: 600px){
+        padding: 3px 15px 40px 15px;
+        height: 1300px;
+        margin-top: -130px;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+`
+
+export const PropertyBody = styled.div`
+    @media(max-width: 600px){
+        margin-top: -50px
+    }
+`
+
+export const PropertyHeader = styled.h1`
+    font-size: 2.1rem;
+    margin-bottom:20px;
+    white-space: nowrap;
+    padding:0 140px 0px 140px;
 
     @media(max-width: 1200px){
         padding: 22px 90px 0px 90px;
@@ -18,21 +52,11 @@ export const PropertyWrapper = styled.div`
     }
     @media(max-width: 768px){
         padding: 16px 30px 0px 30px;
-        height: 900px;
     }
     @media(max-width: 600px){
         padding: 3px 15px 40px 15px;
-        height: 1550px;
-        margin-top: -74px;
-    }
-`
-export const PropertyHeader = styled.h1`
-    font-size: 2.1rem;
-    margin-bottom:30px;
-    white-space: nowrap;
-
-    @media(max-width: 600px){
         font-size: 1.6rem;
+        margin-bottom: 0
     }
 `
 export const PropertyContainer= styled.div`
@@ -42,10 +66,20 @@ export const PropertyContainer= styled.div`
     justify-content: space-between;
     padding:0;
 
+    @media(max-width: 1200px){
+       width:200%;
+       overflow: scroll;
+        -ms-overflow-style: hidden;
+        scrollbar-width: none;
+
+    }
+
     @media(max-width: 600px){
+        width: 100%;
         height: 100%;
         flex-direction: column;
         align-items: center;
+        overflow: hidden
     }
 
 `
@@ -74,6 +108,14 @@ export const ImageContainer = styled.div`
     justify-content:center;
     align-items: center;
     overflow: hidden;
+
+    @media(max-width: 780px){
+        height:60%;
+    }
+
+    @media(max-width: 600px){
+        height:57%;
+    }
 `
 export const DescriptionContainer=styled.div`
     width:100%;
@@ -84,7 +126,14 @@ export const DescriptionContainer=styled.div`
     display: flex;
     flex-direction: column;
     justify-items: space-between;
-    margin: 0
+    margin: 0;
+
+    @media(max-width: 780px){
+        height:40%;
+    }
+    @media(max-width: 600px){
+        height:43%;
+    }
 ` 
 export const Img = styled.img`
     height: 100%;
@@ -95,8 +144,9 @@ export const LocDetailsContainer = styled.div`
     width: 100%;
     display: flex;
     color:rgba(0,0,1,0.5 );
-    font-size: 0.5rem;
     align-items: center;
+    justify-content: flex-start;
+    margin-left:-2px
 `
 
 export const PriceHeader = styled.h4`
@@ -109,11 +159,13 @@ export const Icons = styled.li`
     font-size: 1rem;
     margin-right: 3px;
     list-style: none;
+    padding: 0;
 `
 
 export const LocationInfo = styled.div`
     display: flex;
     align-items: center;
+    font-size: 0.8rem;
 `
 
 export const LocationInfoContainer =  styled.div`
@@ -121,12 +173,34 @@ export const LocationInfoContainer =  styled.div`
     width: 80%;
     justify-content: space-between;
 
-    @media(max-width: 600px){
-        width:90%
+    @media(max-width: 900px){
+        width:100%
     }
 
 `
 
 export const GeographyCont = styled.div`
     display: flex;
+    font-size: 0.8rem
+`
+
+export const ViewAll = styled.p`
+    color: #003060;
+    padding:0 140px 0px 140px;
+
+    @media(max-width: 1200px){
+        padding: 22px 90px 0px 90px;
+    }
+    @media(max-width: 900px){
+        padding: 35px 50px 0px 35px
+    }
+    @media(max-width: 768px){
+        padding: 16px 30px 0px 30px;
+    }
+    @media(max-width: 600px){
+        padding: 3px 15px 40px 15px;
+        margin-bottom: 100px;
+        margin-top: -20px
+    }
+
 `
