@@ -49,7 +49,7 @@ export const Input = styled.input`
     outline: none;
     border: 1px solid gray;
 
-    @media(max-width: 768px){
+    @media(max-width: 900px){
         width:100px;
         height: 30px
     }
@@ -63,24 +63,24 @@ export const Input = styled.input`
     @media(max-width: 600px){
         width:70px;
         height: 30px;
-        padding:0 5px;
+        padding:0 15px 0 5px;
   
     }
 
     @media(max-width: 480px){
-        width:60px;
+        width:65px;
         height: 30px
     }
 `
 
 export const SearchButton = styled(PrimaryButton)`
-    width: 200px;
-    height:50px;
+    width: 150px;
+    height:40px;
     padding:5px 10px;
     border-radius: 6px;
     outline: none;
 
-    @media(max-width: 768px){
+    @media(max-width: 900px){
         width:100px;
         height: 40px
     }
@@ -105,8 +105,9 @@ export const SearchButton = styled(PrimaryButton)`
         color:rgba(0,0,1,0.5 );
 
         @media(max-width: 480px){
-            font-size: 1rem;
-            right: 12px
+            font-size: 0.8rem;
+            right: 12px;
+            top: 25%;
         }
     `
 
