@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Hero from "./components/hero/Hero";
-import { baseUrl } from "./API/fetchApi";
+import { baseUrl } from "./URL/baseUrl";
 import Properties from "./components/properties/Properties";
 import axios from "axios"
+import Services from "./components/services/Services";
+import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
   const [data, setData] = useState();
@@ -18,6 +20,8 @@ function App() {
     <>
       <Hero />
       <Properties propertiesData={data} />
+      <Services />
+      <Testimonials />
     </>
   );
 }
