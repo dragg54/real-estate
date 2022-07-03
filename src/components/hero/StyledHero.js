@@ -66,12 +66,12 @@ export const HeroSection = styled.div`
 
 `
 export const HeroSubSection = styled.div`
-    width: 530px;
+    width: 470px;
     height: 580px;
-    margin-top: 80px;
+    margin-top: 180px;
 
     @media(max-width: 1200px){
-        margin-top: 50px;
+        margin-top: 150px;
         height: 604px;
         width:400px
     }
@@ -114,9 +114,14 @@ export const HeroCaption = styled.h1`
 export const HeroSubCaption = styled.h4`
     font-size: 1rem;
     color:rgb(173,216,230);
+    margin-top: 20px;
+
+    @media(max-width: 1200px){
+        margin-top: 105px
+    }
 
     @media(max-width: 900px){
-        margin-top: -10px;
+        margin-top: 110px;
     }
 
     @media(max-width: 768px){
@@ -126,7 +131,7 @@ export const HeroSubCaption = styled.h4`
     }
     @media(max-width: 600px){
         width: 300px;
-        margin-top: 230px;
+        margin-top: 175px;
         position: absolute;
         z-index:15
         
@@ -165,11 +170,12 @@ export const ButtonContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 15px;
 
     @media(max-width: 600px){
         position: absolute;
         z-index: 2;
-        margin-top:320px
+        margin-top:265px
     }
 `
 export const HeroImageContainer = styled.div`
