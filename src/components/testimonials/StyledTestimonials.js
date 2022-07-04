@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const TestimonialsContainer = styled.div`
   height: 600px;
   width: 100%;
-  background-color: #003060;
+  background-color: #D9E4EC;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ export const TestimonialsContainer = styled.div`
 export const TestimonialWrapper = styled.div`
   height: 600px;
   width: 100%;
-  background-color: #003060;
+  background-color: #D9E4EC;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -53,7 +53,7 @@ export const TestimonialWrapper = styled.div`
 `;
 
 export const TestimonialHeader = styled.h1`
-  color: #94bfcd;
+  color:  #003060;
 
   @media (max-width: 600px) {
     font-size: 1.4rem;
@@ -107,7 +107,7 @@ export const TestimonialContent = styled.div`
   display: flex;
   width: 65%;
   justify-content: space-between;
-  color: #94bfcd;
+  color: #003060;
 
   @media (max-width: 1200px) {
     width: 85%;
@@ -150,7 +150,7 @@ export const ButtonContainer = styled.div`
   align-items: center;
 `;
 export const Button = styled.button`
-  color: #fff;
+  color: #003060;
   background-color: transparent;
   border: none;
   font-size: 1.5rem;
@@ -158,7 +158,7 @@ export const Button = styled.button`
 
 export const UserName = styled.p`
   font-size: 1.8rem;
-  color: #fff;
+  color: #003060;
   font-family: "The Nautigal";
   white-space: nowrap;
 
