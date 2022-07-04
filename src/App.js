@@ -5,6 +5,7 @@ import Properties from "./components/properties/Properties";
 import axios from "axios"
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [data, setData] = useState();
@@ -22,6 +23,7 @@ function App() {
       <Properties propertiesData={data} />
       <Services />
       <Testimonials />
+      <Footer />
     </>
   );
 }
