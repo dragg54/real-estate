@@ -42,7 +42,7 @@ const Testimonials = () => {
 
   useEffect(() => {
     showContainer(boxIndex);
-  }, [boxIndex]);
+  }, [boxIndex, showContainer]);
 
   function showNextContainer() {
     if (boxIndex < boxes.length - 1) {
