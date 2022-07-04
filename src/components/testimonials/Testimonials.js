@@ -23,7 +23,6 @@ const Testimonials = () => {
   const box3 = useRef("");
 
   const boxes = [box1, box2, box3];
-
   function showContainer(index) {
     for (let box of boxes) {
       if (box === boxes[index]) {
@@ -41,8 +40,8 @@ const Testimonials = () => {
   }
 
   useEffect(() => {
-    showContainer(boxIndex);
-  }, [boxIndex, showContainer]);
+    showContainer(boxIndex)
+  });
 
   function showNextContainer() {
     if (boxIndex < boxes.length - 1) {
