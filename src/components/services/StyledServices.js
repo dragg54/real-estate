@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const ServicesBody = styled.div`
-    height: 1800px;
+    height: 2000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,12 +21,12 @@ export const ServicesBody = styled.div`
         height: 2500px
     }
     @media(max-width: 480px){
-       height: 2500px;
+       height: 2350px;
     }
 `
 
 export const ServicesContainer = styled.div`
-    height: 65%;
+    height: 60%;
     width: 100%;
     padding: 28px 100px 20px 100px;
     margin-top: 40px;
@@ -71,7 +71,7 @@ export const ServiceHeader = styled.h1`
 
 export const ImageContainer = styled.div`
     width: 100%;
-    height: 35%;
+    height: 40%;
     background-color: yellow;
     overflow: hidden;
     object-fit: cover;
