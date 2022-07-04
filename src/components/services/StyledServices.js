@@ -23,6 +23,10 @@ export const ServicesBody = styled.div`
     @media(max-width: 480px){
        height: 2350px;
     }
+
+    @media(max-width: 400px){
+       height: 2480px;
+    }
 `
 
 export const ServicesContainer = styled.div`
@@ -74,7 +78,7 @@ export const ImageContainer = styled.div`
     height: 40%;
     background-color: yellow;
     overflow: hidden;
-    object-fit: cover;
+    object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
