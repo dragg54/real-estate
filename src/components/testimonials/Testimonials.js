@@ -68,7 +68,7 @@ const Testimonials = () => {
               <p>
               <FaQuoteLeft style={{marginRight:"10px", fontSize:"2.5rem"}}/>When I and my family just moved to a new city, Lupal helped when we needed a good home.
               </p>
-              <UserName>....Mark Zello</UserName>            </Testimonial>
+              <UserName>...Mark Zello</UserName>            </Testimonial>
           </TestimonialContent>
         </TestimonialContainer>
         <TestimonialContainer ref={box2}>
@@ -93,10 +93,10 @@ const Testimonials = () => {
             <Testimonial>
               <p>
               <FaQuoteLeft style={{marginRight:"10px", fontSize:"2.5rem"}}/>
-                All I can say is thank you thank you Lupal for helping me out
+                All I can say is thank you Lupal for helping me out
                 when all I needed was a good home.
               </p>
-              <UserName>....Peterson Harry</UserName>
+              <UserName>...Peterson Harry</UserName>
             </Testimonial>
           </TestimonialContent>
         </TestimonialContainer>
