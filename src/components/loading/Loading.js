@@ -1,12 +1,10 @@
 import React from 'react'
-import { LoadingContainer, LoadingEl, LoadingWrapper } from './StyledLoading'
+import { LoadingContainer,  LoadingWrapper } from './StyledLoading'
 
 const Loading = () => {
   return (
     <LoadingWrapper>
-        <LoadingContainer>
-          
-        </LoadingContainer>
+        <LoadingContainer />
     </LoadingWrapper>
   )
 }
