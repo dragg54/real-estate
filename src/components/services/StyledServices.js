@@ -7,6 +7,7 @@ export const ServicesBody = styled.div`
     align-items: center;
     max-width:100%;
     overflow: hidden;
+    justify-content: space-between;
 
     @media(max-width: 1200px){
         height: 2300px
