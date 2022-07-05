@@ -43,7 +43,7 @@ export const FooterCover = styled.div`
 
     @media(max-width: 600px){
         flex-direction: column;
-        padding:  30px 60px
+
     }
 `
 
