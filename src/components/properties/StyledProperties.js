@@ -177,6 +177,10 @@ export const LocationInfoContainer =  styled.div`
         width:100%
     }
 
+    @media(max-width: 900px){
+        width:80%
+    }
+
 `
 
 export const GeographyCont = styled.div`
