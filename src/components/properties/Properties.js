@@ -35,7 +35,6 @@ const Properties = ({ propertiesData }) => {
             return (
               <PropertyCard key={property.id}>
                 <ImageContainer>
-                  PurposeContainer
                   <Img
                     src={property.coverPhoto.url}
                     height={500}
