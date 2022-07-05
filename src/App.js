@@ -5,7 +5,7 @@ import Properties from "./components/properties/Properties";
 import axios from "axios";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/Footer/Footer";
 import Loading from "./components/loading/Loading";
 
 function App() {
