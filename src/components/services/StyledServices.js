@@ -26,7 +26,7 @@ export const ServicesBody = styled.div`
     }
 
     @media(max-width: 400px){
-       height: 2480px;
+       height: 2550px;
     }
 `
 
@@ -67,7 +67,7 @@ export const ServiceCard = styled.div`
 
     @media(max-width: 600px){
         padding: 45px 25px;
-        height: 23%
+        height: 24%
     }
     `
 
