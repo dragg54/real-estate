@@ -66,5 +66,6 @@ export const MenuIcon = styled.p`
     @media(max-width: 768px){
         display: block;
         margin-left: 12px;
+        margin-top: -15px;
     }
 `
