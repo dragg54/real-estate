@@ -21,8 +21,8 @@ export const ServicesBody = styled.div`
     @media(max-width: 780px){
         height: 2500px
     }
-    @media(max-width: 480px){
-       height: 2350px;
+    @media(max-width: 600px){
+       height: 2460px;
     }
 
     @media(max-width: 400px){
@@ -66,7 +66,8 @@ export const ServiceCard = styled.div`
     border-radius: 8px;
 
     @media(max-width: 600px){
-        padding: 45px 25px
+        padding: 45px 25px;
+        height: 23%
     }
     `
 
@@ -77,7 +78,6 @@ export const ServiceHeader = styled.h1`
 export const ImageContainer = styled.div`
     width: 100%;
     height: 40%;
-    background-color: yellow;
     overflow: hidden;
     object-fit: contain;
     display: flex;
@@ -110,6 +110,11 @@ export const ServiceCardContainer = styled.div`
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+    }
+
+    @media(max-width: 600px){
+        height: 100%;
+        padding: 0 0 0px 0
     }
 `
 
