@@ -33,8 +33,9 @@ const Properties = ({ propertiesData }) => {
           propertiesData.hits.splice(0, 3).map((property) => {
             console.log(property);
             return (
-              <PropertyCard key={property.id} s>
+              <PropertyCard key={property.id}>
                 <ImageContainer>
+                  PurposeContainer
                   <Img
                     src={property.coverPhoto.url}
                     height={500}
@@ -68,11 +69,6 @@ const Properties = ({ propertiesData }) => {
                         );
                       })}
                     </LocDetailsContainer>
-                    {/*  <p>
-                      {property.title.length > 40
-                        ? property.title.substring(0, 35) + "..."
-                        : property.title}
-                      </p> */}
                     <LocationInfoContainer>
                       <LocationInfo>
                         <Icons>{<FaBed />}</Icons>
