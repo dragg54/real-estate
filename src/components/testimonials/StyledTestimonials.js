@@ -101,6 +101,7 @@ export const Img = styled.img`
 
   @media (max-width: 480px) {
     height: 200px;
+    width: 200px;
   }
 `;
 export const TestimonialContent = styled.div`
