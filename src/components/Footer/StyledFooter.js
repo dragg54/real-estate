@@ -11,7 +11,7 @@ export const FooterContainer = styled.div`
 
     
     @media(max-width: 600px){
-       height: 960px;
+       height: 950px;
        background-size: cover;
 
     }
@@ -43,7 +43,9 @@ export const FooterCover = styled.div`
 
     @media(max-width: 600px){
         flex-direction: column;
-
+        font-size: 0.8rem;
+        padding-bottom: 50px;
+        line-height: 28px;
     }
 `
 
