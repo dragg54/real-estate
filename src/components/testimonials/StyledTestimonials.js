@@ -16,6 +16,7 @@ export const TestimonialsContainer = styled.div`
     padding: 20px;
   }
 
+
   @media (max-width: 480px) {
     padding: 10px;
   }
@@ -44,6 +45,10 @@ export const TestimonialWrapper = styled.div`
   @media (max-width: 780px) {
     height: 500px;
     padding: 10px;
+  }
+
+  @media(max-width: 600px){
+    margin-top: 40px;
   }
 
   @media (max-width: 480px) {
