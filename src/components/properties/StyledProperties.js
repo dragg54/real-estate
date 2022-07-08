@@ -191,6 +191,9 @@ export const GeographyCont = styled.div`
 export const ViewAll = styled.p`
     color: #003060;
     padding:0 140px 0px 140px;
+    &:hover{
+        cursor: pointer;
+    }
 
     @media(max-width: 1200px){
         padding: 22px 90px 0px 90px;
