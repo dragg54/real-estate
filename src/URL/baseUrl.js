@@ -1,3 +1,6 @@
+import React, { useEffect, useState } from 'react'
+import axios from 'axios';
+
 export const baseUrl = {
   method: 'GET',
   url: 'https://bayut.p.rapidapi.com/properties/list',
@@ -12,9 +15,24 @@ export const baseUrl = {
     categoryExternalID: '4'
   },
   headers: {
-    'X-RapidAPI-Key': '2eecbe3b4fmsh381c197c39364fap15cbc4jsn79cf65438095',
+    'X-RapidAPI-Key': '66e2f71542msh86aacdb40d16d6cp186ad1jsn7258579f0cbd',
     'X-RapidAPI-Host': 'bayut.p.rapidapi.com'
   }
 };
 
+const useFetchApi=()=>{
+  const [data, setData] = useState();
+  useEffect(() => {
+    axios
+      .request(baseUrl)
+      .then(function (response) {
+        setData(response.data);
+      })
+      .catch(function (error) {
+        console.error(error);
+      });
+  }, []);
+  return [data]
+}
+export default useFetchApi
 
