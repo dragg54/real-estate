@@ -4,7 +4,7 @@ export const FooterContainer = styled.div`
     height: 500px;
     width: 100%;
     background-image: url('../../../images/footer-img.jpg');
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     position: relative;
     background-repeat: no-repeat;
