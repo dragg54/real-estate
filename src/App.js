@@ -1,39 +1,17 @@
-import React, { useState, useEffect } from "react";
-import Hero from "./components/hero/Hero";
-import { baseUrl } from "./URL/baseUrl";
-import Properties from "./components/properties/Properties";
-import axios from "axios";
-import Services from "./components/services/Services";
-import Testimonials from "./components/testimonials/Testimonials";
-import Footer from "./components/Footer/Footer";
-import Loading from "./components/loading/Loading";
+import React from 'react'
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import AllProperties from './pages/allProperties/AllProperties'
+import Home from './pages/Home'
 
-function App() {
-  const [data, setData] = useState();
-
-  useEffect(() => {
-    axios
-      .request(baseUrl)
-      .then(function (response) {
-        setData(response.data);
-      })
-      .catch(function (error) {
-        console.error(error);
-      });
-  }, []);
-  if (data) {
-    return (
-      <>
-        <Hero />
-        <Properties propertiesData={data} />
-        <Services />
-        <Testimonials />
-        <Footer />
-      </>
-    );
-  } else {
-    return <Loading />
-  }
+function App(){
+  return (
+   <Router>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/allProperties" element={<AllProperties/>}/>
+    </Routes>
+   </Router>
+  )
 }
 
-export default App;
+export default App
