@@ -12,7 +12,7 @@ import {
   PropertyBody,
   PropertyCard,
   PropertyContainer,
-  PropertyHeader,
+  PropertyHeading,
   PropertyWrapper,
   ViewAll,
 } from "./StyledProperties";
@@ -25,7 +25,7 @@ import { Link } from "react-router-dom";
 const Properties = ({ propertiesData }) => {
   return (
     <PropertyBody>
-      <PropertyHeader>Our Available Homes</PropertyHeader>
+      <PropertyHeading>Our Available Homes</PropertyHeading>
         <Link to="/allproperties"><ViewAll>View all properties</ViewAll></Link>
       <PropertyWrapper>
         <PropertyContainer>
