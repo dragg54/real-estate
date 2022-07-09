@@ -7,7 +7,7 @@ import {
   Testimonial,
   TestimonialContainer,
   TestimonialContent,
-  TestimonialHeader,
+  TestimonialHeading,
   TestimonialsContainer,
   TestimonialWrapper,
   UserName,
@@ -57,7 +57,7 @@ const Testimonials = () => {
   console.log(boxIndex);
   return (
     <TestimonialWrapper>
-      <TestimonialHeader>What people are saying about us</TestimonialHeader>
+      <TestimonialHeading>What people are saying about us</TestimonialHeading>
       <TestimonialsContainer>
         <TestimonialContainer ref={box1}>
           <TestimonialContent>

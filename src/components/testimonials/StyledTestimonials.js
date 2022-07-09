@@ -57,7 +57,7 @@ export const TestimonialWrapper = styled.div`
   }
 `;
 
-export const TestimonialHeader = styled.h1`
+export const TestimonialHeading = styled.h1`
   color:  #003060;
 
   @media (max-width: 600px) {

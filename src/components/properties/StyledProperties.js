@@ -38,7 +38,7 @@ export const PropertyBody = styled.div`
     }
 `
 
-export const PropertyHeader = styled.h1`
+export const PropertyHeading = styled.h1`
     font-size: 2.1rem;
     margin-bottom:20px;
     white-space: nowrap;
