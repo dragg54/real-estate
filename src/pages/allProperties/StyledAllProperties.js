@@ -38,13 +38,12 @@ export const AllPropertiesContainer = styled.div`
        flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 94%;
     }
 `
 
 export const AllPropertiesCard = styled(PropertyCard)`
     width: 100%;
-    height: 100%
+    height: 94%
 `
 
 export const PropertyImageContainer = styled(ImageContainer)`
