@@ -17,7 +17,7 @@ export const AllPropertiesWrapper = styled.div`
     }
 
     @media(max-width: 600px){
-        height: 6000px;
+        height: 6400px;
         padding: 10px
     }
 `
