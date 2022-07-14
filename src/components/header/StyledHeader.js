@@ -19,7 +19,17 @@ export const NavContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff
+    color: #fff;
+    background: ${props=>props.variant = "secondary"? "linear-gradient(#68BBE3, #003060)" :""};
+
+    @media(max-width: 780px){
+        padding:${props=>props.variant="secondary"? "0 20px":""}
+    }
+
+    @media(max-width: 600px){
+        padding:${props=>props.variant="secondary"? "0 10px":""};
+        height:${props=>props.variant="secondary"? "80px":""};
+    }
 `
 
 export const NavElements = styled.ul`
