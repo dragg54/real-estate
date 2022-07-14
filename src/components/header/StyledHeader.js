@@ -20,7 +20,7 @@ export const NavContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    background: ${props=>props.variant = "secondary"? "linear-gradient(#68BBE3, #003060)" :""};
+    background: ${props=>props.variant ? "linear-gradient(#68BBE3, #003060)" :""};
 
     @media(max-width: 780px){
         padding:${props=>props.variant="secondary"? "0 20px":""}

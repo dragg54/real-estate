@@ -188,9 +188,10 @@ export const GeographyCont = styled.div`
     font-size: 0.8rem
 `
 
-export const ViewAll = styled.p`
+export const ViewAll = styled.h4`
     color: #003060;
     padding:0 140px 0px 140px;
+    text-decoration-style: none;
     &:hover{
         cursor: pointer;
     }
