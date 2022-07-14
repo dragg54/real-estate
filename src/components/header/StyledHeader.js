@@ -23,12 +23,12 @@ export const NavContainer = styled.div`
     background: ${props=>props.variant ? "linear-gradient(#68BBE3, #003060)" :""};
 
     @media(max-width: 780px){
-        padding:${props=>props.variant="secondary"? "0 20px":""}
+        padding:${props=>props.variant? "0 20px":""}
     }
 
     @media(max-width: 600px){
-        padding:${props=>props.variant="secondary"? "0 10px":""};
-        height:${props=>props.variant="secondary"? "80px":""};
+        padding:${props=>props.variant? "0 10px":""};
+        height:${props=>props.variant? "80px":""};
     }
 `
 
