@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import { DescriptionContainer, ImageContainer, PropertyCard } from "../../components/properties/StyledProperties";
 
 export const AllPropertiesWrapper = styled.div`
-    height:3400px;
+    height:2000px;
     width: 100%;
     padding:50px;
 
@@ -17,8 +17,9 @@ export const AllPropertiesWrapper = styled.div`
     }
 
     @media(max-width: 600px){
-        height: 6400px;
-        padding: 10px
+        height: 5500px;
+        padding: 10px;
+        margin-bottom: 50px
     }
 `
 
@@ -43,7 +44,7 @@ export const AllPropertiesContainer = styled.div`
 
 export const AllPropertiesCard = styled(PropertyCard)`
     width: 100%;
-    height: 94%
+    height: 400px
 `
 
 export const PropertyImageContainer = styled(ImageContainer)`
